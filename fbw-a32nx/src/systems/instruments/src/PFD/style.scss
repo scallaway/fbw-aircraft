@@ -258,3 +258,9 @@ text.Red {
 .HiddenElement {
   display: none;
 }
+
+// TODO: Check whether we can apply flex rules to the SVG
+.cells {
+  display: flex;
+  justify-content: space-evenly;
+}
